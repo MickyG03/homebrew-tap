@@ -1,25 +1,25 @@
 class ArcCli < Formula
   desc "arc: local agent for coordinating coding agents and sharing team memory"
   homepage "https://getarc.dev"
-  version "0.2.13"
+  version "0.2.14"
   if OS.mac?
     if Hardware::CPU.arm?
-      url "https://github.com/MickyG03/arc-releases/releases/download/v0.2.13/arc-cli-aarch64-apple-darwin.tar.xz"
-      sha256 "fcceff7e6988004d5afa5fb3cf945a08053957a1840306e4d151be888aa97c3b"
+      url "https://github.com/MickyG03/arc-releases/releases/download/v0.2.14/arc-cli-aarch64-apple-darwin.tar.xz"
+      sha256 "a3f00539d25d38798c79fddf03be0f85844238578010f9f21c588ed0b68213f6"
     end
     if Hardware::CPU.intel?
-      url "https://github.com/MickyG03/arc-releases/releases/download/v0.2.13/arc-cli-x86_64-apple-darwin.tar.xz"
-      sha256 "69cd27dd975789a13c00a57553a0e65182a11e00d454b6372cc9b8a79c705fe0"
+      url "https://github.com/MickyG03/arc-releases/releases/download/v0.2.14/arc-cli-x86_64-apple-darwin.tar.xz"
+      sha256 "aad8b31a473be138842950f02d8e5fc47896c36fe32d8a5d63c03c56a73388bf"
     end
   end
   if OS.linux?
     if Hardware::CPU.arm?
-      url "https://github.com/MickyG03/arc-releases/releases/download/v0.2.13/arc-cli-aarch64-unknown-linux-gnu.tar.xz"
-      sha256 "324bf41cb6d5421d317d50c746b7be06c8f0389c9c049b687a7ac008678092ae"
+      url "https://github.com/MickyG03/arc-releases/releases/download/v0.2.14/arc-cli-aarch64-unknown-linux-gnu.tar.xz"
+      sha256 "80c27c49cc51119f7db8de7f675a19be397fc3fe0c08f07625bc3f47b38de1c7"
     end
     if Hardware::CPU.intel?
-      url "https://github.com/MickyG03/arc-releases/releases/download/v0.2.13/arc-cli-x86_64-unknown-linux-gnu.tar.xz"
-      sha256 "3fcb9ca75375381cc3949c40776686f5c4b0c7ef3724ce429543d9da47722e1f"
+      url "https://github.com/MickyG03/arc-releases/releases/download/v0.2.14/arc-cli-x86_64-unknown-linux-gnu.tar.xz"
+      sha256 "86207870ba986b834ba199b43610c7ba62f6a8e5dc965758f8314a130388286a"
     end
   end
   license "UNLICENSED"
